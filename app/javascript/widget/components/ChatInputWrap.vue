@@ -1,6 +1,6 @@
 <template>
   <div
-    class="chat-message--input is-focused"
+    class="chat-message--input is-focused pb-3"
     :class="$dm('bg-white ', 'dark:bg-slate-600')"
     @keydown.esc="hideEmojiPicker"
   >
