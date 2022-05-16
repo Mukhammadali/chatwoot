@@ -21,19 +21,19 @@ export default new Router({
       path: '/',
       component: ViewWithHeader,
       children: [
-        {
-          path: '',
-          name: 'home',
-          component: () => import('./views/Home.vue'),
-        },
+        // {
+        //   path: '',
+        //   name: 'home',
+        //   component: () => import('./views/Home.vue'),
+        // },
         {
           path: '/prechat-form',
           name: 'prechat-form',
           component: () => import('./views/PreChatForm.vue'),
         },
         {
-          path: '/messages',
-          name: 'messages',
+          path: '',
+          name: 'home',
           component: () => import('./views/Messages.vue'),
         },
       ],
